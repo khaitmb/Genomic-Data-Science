@@ -1,7 +1,4 @@
 ## Input: file containing DNA Sequences in multi-FASTA format
-
-## How many records are in the file?
-
 try:
 	f = open("/Users/khaitlinbernaldez/Desktop/dna2.fasta")
 except IOError:
@@ -17,6 +14,7 @@ for line in f:
 	else:
 		seqs[name] = seqs[name] + line
 
+## How many records are in the file?
 print(len(seqs)) ## 25
 
 ## What are the lengths of the sequences in the file? 
