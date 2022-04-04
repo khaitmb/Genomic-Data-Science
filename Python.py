@@ -1,4 +1,4 @@
-## Input: file containing DNA Sequences in multi-FASTA format
+## Import and read file containing DNA Sequences in multi-FASTA format
 try:
 	f = open("/Users/khaitlinbernaldez/Desktop/dna2.fasta")
 except IOError:
